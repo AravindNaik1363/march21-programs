@@ -1,0 +1,52 @@
+
+1.What is difference between while and do-while loop?
+
+A)Unlike for and while loops, which test the loop condition at the top of the loop, the do...while loop in C programming checks its condition at the bottom of the loop.
+
+A do...while loop is similar to a while loop, except the fact that it is guaranteed to execute at least one time.
+_________________________________________________________________________________________________________________
+
+2.Difference betwen return and exit statements in C?
+
+A)return returns from the current function; it's a language keyword like for or break.
+exit() terminates the whole program, wherever you call it from. 
+Also notice the #include <stdlib.h> necessary to call the library function exit().
+
+Also notice that the parameter of exit() is an integer (it's the return status of the process that the launcher process can get; the conventional usage is 0 for success or any other value for an error).
+
+The parameter of the return statement is whatever the return type of the function is. If the function returns void, you can omit the return at the end of the function.
+________________________________________________________________________________________________________________________
+
+3.Tejaswini expalined -Implementing Queue using 2 stacks
+_________________________________________________________________________________________________________________-
+4.Mam asked us to perform Implementing Stack using 2 queues
+__________________________________________________________________________________________________________________
+5.Real time applications of Single liked list?
+
+A)(i)Implementation of stacks and queues
+(ii) Dynamic memory allocation : We use linked list of free blocks.
+(iii)Maintaining directory of names
+(iv)Manipulation of polynomials by storing constants in the node of linked list
+__________________________________________________________________________________
+
+6.Real time applications of Double liked list?
+
+A)Applications of linked list in real world-
+
+=>Image viewer – Previous and next images are linked, hence can be accessed by next and previous button.
+=>Previous and next page in web browser – We can access previous and next url searched in web browser by pressing back and next button since, they are linked as linked list.
+=>Music Player – Songs in music player are linked to previous and next song. you can play songs either from starting or ending of the list.
+__________________________________________________________________________________________________________________
+7.Real time applications of Circular liked list?
+
+A)It is also used by the Operating system to share time for different users, generally uses a Round-Robin time-sharing mechanism.
+=>Multiplayer games use a circular list to swap between players in a loop.
+=>Implementation of Advanced data structures like Fibonacci Heap
+=>The browser cache which allows you to hit the BACK button
+=>Undo functionality in Photoshop or Word
+=>Circular linked lists are used in Round Robin Scheduling
+
+____________________________________________________________________________________________________________________
+8.Which variation of linked list is used when we want to concatenate 2 linked lists in O(1) time complexity?
+
+A)Circular linked list is used
